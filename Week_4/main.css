@@ -1,0 +1,11 @@
+.alert-primary{
+    color: #004085;
+    background-color: rgb(211, 255, 204);
+    border-color: #93228e;
+}
+
+.navbar-light .navbar-toggler{
+    color: #004085;
+    background-color: rgb(211, 255, 204);
+    border-color: #93228e;
+}
