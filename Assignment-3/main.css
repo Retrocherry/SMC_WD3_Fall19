@@ -1,0 +1,22 @@
+.alert-primary{
+    color: #004085;
+    background-color: rgb(211, 255, 204);
+    border-color: #004085;
+}
+
+.navbar-light .navbar-toggler {
+    color: #004085 !important;
+    background-color: rgb(211, 255, 204);
+    border-color: #93228e;
+}
+
+.bg-light {
+    color: #004085 !important;
+    background-color: rgb(211, 255, 204);
+    border-color: #93228e;
+}
+
+.navbar {
+    background-color: #3fc1f3 !important;
+    border-color: #933319;
+}
