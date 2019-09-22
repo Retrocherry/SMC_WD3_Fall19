@@ -14,12 +14,15 @@
     color: #007bff !important;
     background: #2681B5;
     border-color: #CE3314;
-    font-family: 'Courier New', Courier, monospace;
+   
 }
 
 .navbar {
     background-color: #2E9DDD !important;
     border-color: #CE3314;
+    font-family: 'Big Shoulders Text', sans-serif;
+    font-size: 1.5rem; 
+    
 }
 
 .btn-lg {
@@ -31,8 +34,25 @@
     background: rgb(255, 89, 56);
     border-color: #CE3314;
 }
+/* STORY BODY */
+.para-header{
+    font-family: 'Big Shoulders Text', cursive;
+    color: #CE3314;
+}
+.lead-paragraph {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #7B1F0D;
 
+}
 
+.para-subheader{
+    font-family: 'Be Vietnam', sans-serif;
+    color: #7B1F0D;
+}
+
+.body{
+    font-family: 'Be Vietnam', sans-serif;
+}
 
 .logo {
     width: 10rem;
