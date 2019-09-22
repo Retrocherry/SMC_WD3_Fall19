@@ -11,9 +11,10 @@
 }
 
 .bg-light {
-    color: #004085 !important;
+    color: #007bff !important;
     background-color: rgb(211, 255, 204);
     border-color: #93228e;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .navbar {
@@ -30,5 +31,36 @@
 }
 
 .main-header {
-    text-shadow: 2px 2px #484848;
+    text-shadow: 2px 2px 10px #484848;
+	font-family: 'Big Shoulders Text', cursive;
+
+}
+
+.jumbo-subhead {
+    font-family: 'Raleway', sans-serif !important;
+    text-shadow: 2px 2px 10px #484848;
+    color: white;
+
+}
+
+.card-pic {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+.card-text {
+    font-family: 'Raleway';
+    color: white;
+}
+
+.btn-outline-success {
+    border-color: orange;
+}
+
+.btn-outline-success:hover {
+    background-color: orange;
+}
+
+.lead-paragraph {
+    /* margin: 10px 0; */
 }
