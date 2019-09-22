@@ -1,4 +1,4 @@
-.alert-primary{
+.alert-primary {
     color: #004085;
     background-color: rgb(211, 255, 204);
     border-color: #004085;
@@ -23,4 +23,12 @@
 
 .logo {
     width: 10rem;
+}
+
+.jumbotron {
+    border-radius: 0;
+}
+
+.main-header {
+    text-shadow: 2px 2px #484848;
 }
