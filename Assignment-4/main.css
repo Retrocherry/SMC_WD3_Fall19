@@ -1,4 +1,13 @@
 .bg-gradient-light {
-    background: rgb(244, 241, 230);
+    /* background: rgb(244, 241, 230); */
+
+    background-image: url("pattern.png");
+  background-repeat: repeat;
+  
     
+}
+
+
+.main-title{
+    font-family: 'Josefin Sans', sans-serif;
 }
