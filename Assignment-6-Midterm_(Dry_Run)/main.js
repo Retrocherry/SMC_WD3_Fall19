@@ -23,13 +23,13 @@ $(document).ready(function () {
 
 })
 
-$(window).on('load', function () {
-    $('#myCarousel').carousel({
-        interval: 500
-    });
+// $(window).on('load', function () {
+//     $('#myCarousel').carousel({
+//         interval: 500
+//     });
 
-    $('#myModal').modal({
-        backdrop: false,
-        keyboard: false
-    });
-})
+//     $('#myModal').modal({
+//         backdrop: false,
+//         keyboard: false
+//     });
+// })

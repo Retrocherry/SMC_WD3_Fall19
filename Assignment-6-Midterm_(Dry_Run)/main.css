@@ -21,22 +21,27 @@
 
 .navbar {
     background-color: #2E9DDD !important;
-    border-color: #CE3314;
+    border-color: black;
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
 }
 
 /* -------------- BUTTON STYLE --------------- */
 
 .btn-lg {
-    background: #CE3314;
-    border-color: #A92A11;
+    background: #28DF98;
+    border-color: #28DF98;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #003286;
+   
 }
 
 .btn-lg:hover {
-    background: rgb(255, 89, 56);
-    border-color: #CE3314;
+    background: rgb(226, 237, 233);
+    border-color: #28DF98;
+    color: #003286;
+    
 }
 
 .btn-outline-success {
