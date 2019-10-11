@@ -1,10 +1,11 @@
 $(document).ready(function () {
+
     var billingCheckbox;
 
 
 
     $("#mainTitle").addClass("pink");
-    
+
 
     $("#colorChange").click(changeColor);
     $("#addDiv").click(addStuff);
@@ -77,8 +78,17 @@ $(document).ready(function () {
 
                     <div class="form-group col-md-6 mb-3">
                         <label for="inputCity">City</label>
-                        <input type="text" class="form-control" id="inputCity">
+                        <select id="inputCity" class="form-control">
+                            <option selected>Choose...</option>
+                            <option> Los Angeles</option>
+                            <option> New York</option>
+                        
+                            <select>
                     </div>
+
+
+
+
                     <div class="form-group col-md-4">
                         <label for="inputState">State</label>
                         <select id="inputState" class="form-control">
@@ -150,7 +160,6 @@ $(document).ready(function () {
                 </div>
 
 
-
                 <div class="form-group">
 
     </form>
@@ -181,15 +190,15 @@ $(document).ready(function () {
 
 
 
-var formContainer = $("#form-container");
+        var formContainer = $("#form-container");
 
-console.log(formContainer);
+        console.log(formContainer);
 
-formContainer.append(formHTML);
+        formContainer.append(formHTML);
 
-billingCheckbox = $("#inputAddress");
+        billingCheckbox = $("#inputAddress");
 
-$("#addDiv").off("click");
+        $("#addDiv").off("click");
     };
 
 
@@ -246,9 +255,14 @@ function toggleBillingInfo() {
 
 
         <div class="form-group col-md-6">
-            <label for="inputCity">City</label>
-            <input type="text" class="form-control" id="inputCity">
+            <label for="inputCity">City</label
+            <select id="inputCity" class="form-control">
+                <option selected>Choose...</option>
+                <option>...</option>
         </div>
+
+
+
         <div class="form-group col-md-4">
             <label for="inputState">State</label>
             <select id="inputState" class="form-control">

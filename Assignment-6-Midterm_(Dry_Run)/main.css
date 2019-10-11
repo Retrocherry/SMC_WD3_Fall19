@@ -1,0 +1,140 @@
+.alert-primary {
+    color: #0D4993;
+    background: #2681B5;
+    border-color: #0D4993;
+}
+
+/* -------------- NAVBAR STYLE --------------- */
+
+.navbar-light .navbar-toggler {
+    color: #004085 !important;
+    background: #2681B5;
+    border-color: #0D4993;
+}
+
+.bg-light {
+    color: #007bff !important;
+    background: #2681B5;
+    border-color: #CE3314;
+
+}
+
+.navbar {
+    background-color: #2E9DDD !important;
+    border-color: #CE3314;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.5rem;
+
+}
+
+/* -------------- BUTTON STYLE --------------- */
+
+.btn-lg {
+    background: #CE3314;
+    border-color: #A92A11;
+}
+
+.btn-lg:hover {
+    background: rgb(255, 89, 56);
+    border-color: #CE3314;
+}
+
+.btn-outline-success {
+    border-color: orange;
+}
+
+.btn-outline-success:hover {
+    background-color: orange;
+}
+
+/* -------------- TYPOGRAPHY STYLE --------------- */
+.main-header {
+    text-shadow: 2px 2px 10px #484848;
+    font-family: 'Big Shoulders Text', cursive;
+
+}
+
+.para-header {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #CE3314;
+}
+
+.lead-paragraph {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #7B1F0D;
+}
+
+.para-subheader {
+    font-family: 'Be Vietnam', sans-serif;
+    color: #7B1F0D;
+}
+
+.body {
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+
+/* -------------- LOGO STYLE --------------- */
+
+.logo {
+    width: 10rem;
+}
+
+/* -------------- JUMBOTRON STYLE --------------- */
+
+.jumbotron {
+    border-radius: 0;
+}
+
+
+.jumbo-subhead {
+    font-family: 'Be Vietnam', sans-serif;
+    text-shadow: 2px 2px 10px #484848;
+    color: white;
+
+}
+
+
+/* -------------- CARD STYLE --------------- */
+
+
+.card-header {
+    font-family: 'Be Vietnam', sans-serif !important;
+    text-shadow: 2px 2px 10px #484848;
+    color: white;
+    background: #2E9DDD;
+}
+
+.card-pic {
+    font-family: 'Be Vietnam', sans-serif;
+    width: 100%;
+}
+
+.card-body {
+    font-family: 'Be Vietnam', sans-serif !important;
+    color: white;
+    background: #0D4993;
+}
+
+
+
+
+.bg-secondary {
+    background: #2681B5;
+}
+
+
+
+
+
+
+/* -------------- POPUP STYLE --------------- */
+
+#popup-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
