@@ -1,7 +1,7 @@
 setTimeout(function () {
 
     $('#exampleModal').modal('show');
-}, 4000); // Wait 4 seconds before calling this function
+}, 1); // Wait 4 seconds before calling this function
 
 
 

@@ -75,7 +75,7 @@
 }
 
 
-/* FEATURETTES */
+/* ------------------- FEATURETTES -------------------*/
 .featurette{
     height: 500px;
     /* align-items: stretch; */
@@ -89,18 +89,18 @@
 /* -------------- TYPOGRAPHY STYLE --------------- */
 .main-header {
     text-shadow: 2px 2px 10px #484848;
-    font-family: 'Big Shoulders Text', cursive;
+  font-family: 'Lexend Deca', sans-serif;
 
 }
 
 .para-header {
-    font-family: 'Big Shoulders Text', cursive;
+  font-family: 'Lexend Deca', sans-serif;
     color: #CE3314;
 }
 
-.lead-paragraph {
-    font-family: 'Big Shoulders Text', cursive;
-    color: #7B1F0D;
+.lead {
+  font-family: 'Lexend Deca', sans-serif;
+color: whitesmoke;
 }
 
 .para-subheader {
@@ -110,6 +110,10 @@
 
 .body {
     font-family: 'Be Vietnam', sans-serif;
+}
+
+.text-muted2{
+    color: white !important;
 }
 
 
@@ -127,6 +131,11 @@
 
 }
 
+.display-4 {
+    font-family: 'Lexend Deca', sans-serif;
+    text-shadow: 2px 2px 10px #484848;
+    color: white;
+}
 
 .jumbo-subhead {
     font-family: 'Be Vietnam', sans-serif;
@@ -157,7 +166,7 @@
     background: rgb(254, 254, 254);
 }
 
-.card-text {
+.featurette-text {
     height: 175px;
 }
 
@@ -181,6 +190,7 @@
 
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 
 
 
