@@ -1,8 +1,4 @@
-.alert-primary {
-    color: #0D4993;
-    background: #2681B5;
-    border-color: #0D4993;
-}
+
 
 /* -------------- NAVBAR STYLE --------------- */
 
@@ -59,7 +55,12 @@
     color: #003286;
 
 }
-
+.btn-primary {
+    color: #003286;
+    background-color: #65F7BC;
+    border-color: #65F7BC;
+    font-family: 'Lexend Deca', sans-serif;
+}
 .btn-lg:hover {
     background: rgb(226, 237, 233);
     border-color: #65F7BC;
@@ -75,7 +76,14 @@
     background-color: orange;
 }
 
+/* ---------------       ALERT              -------------- */
 
+.alert-primary {
+    color: #0D4993;
+    background: #65F7BC;
+    border-color: rgb(66, 199, 146);
+    font-family: 'Lexend Deca', sans-serif;
+}
 /* ------------------- FEATURETTES -------------------*/
 .featurette {
     height: 500px;
@@ -148,27 +156,27 @@
 
 /* -------------- CARD STYLE --------------- */
 
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .4rem;
+    
+}
 
 .card-header {
-    font-family: 'Be Vietnam', sans-serif !important;
+    font-family: 'Lexend Deca', sans-serif;
     text-shadow: 2px 2px 10px #484848;
     color: white;
     background: #2E9DDD;
 }
 
-.card-pic {
-    font-family: 'Be Vietnam', sans-serif;
-    width: 100%;
-}
-
 .card-body {
-    font-family: 'Be Vietnam', sans-serif !important;
+    font-family: 'Lexend Deca', sans-serif;
     color: black;
     background: rgb(254, 254, 254);
 }
 
 .featurette-text {
-    height: 175px;
+    height: 120px;
 }
 
 
