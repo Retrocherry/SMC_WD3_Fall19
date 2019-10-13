@@ -74,6 +74,18 @@
     background-color: orange;
 }
 
+
+/* FEATURETTES */
+.featurette{
+    height: 500px;
+    /* align-items: stretch; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
 /* -------------- TYPOGRAPHY STYLE --------------- */
 .main-header {
     text-shadow: 2px 2px 10px #484848;
@@ -141,11 +153,13 @@
 
 .card-body {
     font-family: 'Be Vietnam', sans-serif !important;
-    color: rgb(254, 254, 254);
+    color: black;
     background: rgb(254, 254, 254);
 }
 
-
+.card-text {
+    height: 175px;
+}
 
 
 .bg-secondary {
@@ -166,4 +180,13 @@
     bottom: 0;
 
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* BREAKPOINT OVERRIDES */
+
+@media (min-width: 576px)
+.jumbotron {
+    padding: 4rem 2rem;
 }
