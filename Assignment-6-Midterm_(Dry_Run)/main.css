@@ -8,21 +8,39 @@
 
 .navbar-light .navbar-toggler {
     color: #004085 !important;
-    background: #2681B5;
-    border-color: #0D4993;
+    background: #E6FAFC;
+    border-color: #E6FAFC;
 }
+.navbar-light .navbar-nav .nav-link{
+    color: rgba(255, 255, 255, 0.84);
+}
+
+
+
+.navbar-light .navbar-nav .nav-link a:hover{
+   
+    opacity: 0.3;
+    color: #0D4993;
+    transition: 0.3s;
+ }
+ 
+
+
+
+
 
 .bg-light {
     color: #007bff !important;
-    background: #2681B5;
-    border-color: #CE3314;
+    background: #E6FAFC;
+    border-color: #E6FAFC;
 
 }
 
 .navbar {
-    background-color: #2E9DDD !important;
-    border-color: black;
+    background-color: #00BFEA !important;
+    border-color: white;
     font-family: 'Lexend Deca', sans-serif;
+    color: white;
     font-size: 1.2rem;
 
 }
@@ -30,8 +48,8 @@
 /* -------------- BUTTON STYLE --------------- */
 
 .btn-lg {
-    background: #28DF98;
-    border-color: #28DF98;
+    background: #65F7BC;
+    border-color: #65F7BC;
     font-family: 'Lexend Deca', sans-serif;
     color: #003286;
    
@@ -39,7 +57,7 @@
 
 .btn-lg:hover {
     background: rgb(226, 237, 233);
-    border-color: #28DF98;
+    border-color: #65F7BC;
     color: #003286;
     
 }
@@ -89,6 +107,8 @@
 
 .jumbotron {
     border-radius: 0;
+    margin-bottom: 0;
+
 }
 
 
