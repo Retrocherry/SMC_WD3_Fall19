@@ -34,7 +34,7 @@
 
 
 .bg-light {
-    color: #007bff !important;
+    color: #E6FAFC;
     background: #E6FAFC;
     border-color: #E6FAFC;
 
@@ -141,8 +141,8 @@
 
 .card-body {
     font-family: 'Be Vietnam', sans-serif !important;
-    color: white;
-    background: #0D4993;
+    color: rgb(254, 254, 254);
+    background: rgb(254, 254, 254);
 }
 
 
