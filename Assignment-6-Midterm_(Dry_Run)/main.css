@@ -86,7 +86,7 @@
 }
 /* ------------------- FEATURETTES -------------------*/
 .featurette {
-    height: 500px;
+    height: 450px;
     /* align-items: stretch; */
     display: flex;
     flex-direction: column;

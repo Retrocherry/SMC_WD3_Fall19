@@ -1,0 +1,210 @@
+
+
+/* -------------- NAVBAR STYLE --------------- */
+
+.navbar-light .navbar-toggler {
+    color: #004085 !important;
+    background: #E6FAFC;
+    border-color: #E6FAFC;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.84);
+}
+
+.navbar-light .navbar-nav .nav-active {
+    color: #004085;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link a:hover {
+
+    opacity: 0.3;
+    color: #0D4993;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+.bg-light {
+    color: #E6FAFC;
+    background: #E6FAFC;
+    border-color: #E6FAFC;
+
+}
+
+.navbar {
+    background-color: #00BFEA !important;
+    border-color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+/* -------------- BUTTON STYLE --------------- */
+
+.btn-lg {
+    background: #65F7BC;
+    border-color: #65F7BC;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #003286;
+
+}
+.btn-primary {
+    color: #003286;
+    background-color: #65F7BC;
+    border-color: #65F7BC;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.btn-lg:hover {
+    background: rgb(226, 237, 233);
+    border-color: #65F7BC;
+    color: #003286;
+
+}
+
+.btn-outline-success {
+    border-color: orange;
+}
+
+.btn-outline-success:hover {
+    background-color: orange;
+}
+
+/* ---------------       ALERT              -------------- */
+
+.alert-primary {
+    color: #0D4993;
+    background: #65F7BC;
+    border-color: rgb(66, 199, 146);
+    font-family: 'Lexend Deca', sans-serif;
+}
+/* ------------------- FEATURETTES -------------------*/
+.featurette {
+    height: 450px;
+    /* align-items: stretch; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* -------------- TYPOGRAPHY STYLE --------------- */
+.main-header {
+    text-shadow: 2px 2px 10px #484848;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.para-header {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #CE3314;
+}
+
+.lead {
+    font-family: 'Lexend Deca', sans-serif;
+    color: whitesmoke;
+}
+
+.para-subheader {
+    font-family: 'Be Vietnam', sans-serif;
+    color: #7B1F0D;
+}
+
+.body {
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+.text-muted2 {
+    color: white !important;
+}
+
+
+/* -------------- LOGO STYLE --------------- */
+
+.logo {
+    width: 10rem;
+}
+
+/* -------------- JUMBOTRON STYLE --------------- */
+
+.jumbotron {
+    border-radius: 0;
+    margin-bottom: 0;
+
+}
+
+.display-4 {
+    font-family: 'Lexend Deca', sans-serif;
+    text-shadow: 2px 2px 10px #484848;
+    color: white;
+}
+
+.jumbo-subhead {
+    font-family: 'Be Vietnam', sans-serif;
+    text-shadow: 2px 2px 10px #484848;
+    color: white;
+
+}
+
+
+/* -------------- CARD STYLE --------------- */
+
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .4rem;
+    
+}
+
+.card-header {
+    font-family: 'Lexend Deca', sans-serif;
+    text-shadow: 2px 2px 10px #484848;
+    color: white;
+    background: #2E9DDD;
+}
+
+.card-body {
+    font-family: 'Lexend Deca', sans-serif;
+    color: black;
+    background: rgb(254, 254, 254);
+}
+
+.featurette-text {
+    height: 120px;
+}
+
+
+.bg-secondary {
+    background: #2681B5;
+}
+
+
+
+
+
+
+/* -------------- POPUP STYLE --------------- */
+
+#popup-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+/* BREAKPOINT OVERRIDES */
+
+@media (min-width: 576px) .jumbotron {
+    padding: 4rem 2rem;
+}
