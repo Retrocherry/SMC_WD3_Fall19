@@ -162,7 +162,20 @@
     color: white;
 
 }
+/* ---------------   CAROUSEL */
 
+.first-slide{
+   object-fit: cover;
+}
+
+.second-slide{
+   object-fit: cover;
+}
+
+
+.third-slide{
+   object-fit: cover;
+}
 
 /* -------------- CARD STYLE --------------- */
 
@@ -195,6 +208,12 @@
 }
 
 
+/* IMAGE */
+
+.earthimage {
+ 
+    width: 300px;
+}
 
 
 
