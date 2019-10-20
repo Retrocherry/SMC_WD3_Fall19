@@ -21,7 +21,7 @@
 .navbar-light .navbar-nav .nav-link a:hover {
 
     opacity: 0.3;
-    color: #0D4993;
+    color: #004085;
     transition: 0.3s;
 }
 
@@ -61,6 +61,16 @@
     border-color: #65F7BC;
     font-family: 'Lexend Deca', sans-serif;
 }
+
+.btn-primary:hover {
+    color: whitesmoke;
+    background-color: #003286;
+    border-color: #65F7BC;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+
 .btn-lg:hover {
     background: rgb(226, 237, 233);
     border-color: #65F7BC;
@@ -79,7 +89,7 @@
 /* ---------------       ALERT              -------------- */
 
 .alert-primary {
-    color: #0D4993;
+    color: #003286;
     background: #65F7BC;
     border-color: rgb(66, 199, 146);
     font-family: 'Lexend Deca', sans-serif;
@@ -189,15 +199,19 @@
 
 
 
-/* -------------- POPUP STYLE --------------- */
+/* -------------- POPUP MODAL STYLE --------------- */
 
 #popup-container {
     position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
-
+    font-family: 'Lexend Deca', sans-serif;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-title{
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 
