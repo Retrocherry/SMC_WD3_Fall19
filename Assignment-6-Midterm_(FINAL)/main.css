@@ -86,6 +86,20 @@
     background-color: orange;
 }
 
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #003286;
+    border-color: #65F7BC;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.btn-outline-primary{
+    color: #003286;
+    background-color: #65F7BC;
+    border-color: #65F7BC;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
 /* ---------------       ALERT              -------------- */
 
 .alert-primary {
