@@ -1,0 +1,68 @@
+.jumbotron {
+    /* background-image: linear-gradient(cornflowerblue 0%, cornsilk 20%); */
+    /* background-image: linear-gradient(45deg, cornflowerblue 60%, cornsilk, goldenrod, rebeccapurple); */
+    /* background: linear-gradient(hsl (90, 100, 100, hsl(270, 100, 100))); */
+    /* background-image: linear-gradient( 190deg, hsl(0, 100%, 50%) hsl(90, 100%, 100%))); */
+    /* background-image: radial-gradient(cornflowerblue, cornsilk); */
+
+    background-image: radial-gradient(circle, closest-side at 80%, red, yellow, green);
+    background-image: repeating-radial-gradient(circle, red 33%, yellow 33%, green 33%)
+}
+
+.field{
+    min-height: 600px;
+    background-color: hsl(200, 100%, 50%);
+}
+
+
+.thing{
+    width: 150px;
+    height: 150px;
+    background-color: hsl(20, 100%, 50%); 
+    border-radius: 50%;
+
+
+    position: absolute;
+/* 
+    
+
+    animation: myAnimation 4s 4; */
+    animation: myAnimation 2s ease-in-out infinite;
+}
+
+/* @keyframes myAnimation {
+    from{
+        background-color: hsl(-40, 100%, 50%);
+    }
+    to{
+        background-color: hsl(40, 100%, 50%);
+        border-radius: 20%;
+    }
+    to{
+        background-color: hsl(60, 100%, 50%);
+        border-radius: 50%;
+    }
+} */
+
+@keyframes myAnimation {
+    0%{
+        background-color: hsl(-40, 100%, 50%);
+        left: 0;
+        top: 0;
+    }
+    50%{
+        background-color: hsl(40, 100%, 50%);
+        /* border-radius: 20%; */
+        
+    }
+    100%{
+        background-color: hsl(-40, 100%, 50%);
+        /* border-radius: 50%; */
+        /* left: 100%;
+        top: 100%; */
+        
+        left: calc(100% - 150px);
+        top: calc(100% - 150px);
+    }
+    
+}
