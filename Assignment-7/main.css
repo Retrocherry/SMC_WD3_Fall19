@@ -76,13 +76,13 @@
     width: 55px;
     height: 120px;
     background: url(drop.svg) top center no-repeat;
-    pointer-events: none;
-    animation-play-state: paused;
+   
     animation: rainAnimation 3s linear infinite;
+    animation-play-state: paused;
 }
 
 .myCloud:hover {
-    animation-play-state: running;
+    animation-play-state: running; 
     opacity: 100%;
 }
 
@@ -99,7 +99,9 @@
 
     }
 
-    100% {}
+    100% {
+        
+    }
 }
 
 @keyframes rainAnimation {
