@@ -65,16 +65,20 @@
     background: url(cloud-svgrepo-com.svg) top center no-repeat;
     opacity: 50%;
     transition: 0.3s;
+    animation-play-state: paused;
 }
 
 .raindrop {
     position: absolute;
-    bottom: 100%;
-    width: 15px;
+    bottom: 100px;
+    left: 150px;
+
+    width: 55px;
     height: 120px;
     background: url(drop.svg) top center no-repeat;
     pointer-events: none;
-    animation: rainAnimation 0.5s linear infinite;
+    animation-play-state: paused;
+    animation: rainAnimation 3s linear infinite;
 }
 
 .myCloud:hover {
@@ -82,6 +86,9 @@
     opacity: 100%;
 }
 
+.raindrop:hover{
+    animation-play-state: running; 
+}
 
 /* Standard syntax */
 @keyframes myAnimation {
@@ -95,7 +102,7 @@
     100% {}
 }
 
-@keyframes raindrop {
+@keyframes rainAnimation {
     0% {
         transform: translateY(0vh);
     }
