@@ -5,10 +5,14 @@
 
     /* background-image: radial-gradient(circle farthest-corner at 80%, cornflowerblue, cornsilk ); */
 
-    background-image: repeating-radial-gradient(circle, goldenrod 0%, navy );
+    background-image: repeating-radial-gradient(circle, goldenrod 0%, navy);
 }
 
-.field {
+.jumbotron-heading {
+    font-family: 'Bree Serif', Courier, monospaced;
+}
+
+/* .field {
     min-height: 600px;
     background-color: hsl(200, 70%, 50%);
 
@@ -24,15 +28,37 @@
     position: absolute;
 
     animation: myAnimation 4s ease-in-out 1s infinite alternate;
+} */
+
+.mySun {
+    margin: auto;
+
+    width: 500px;
+    height: 500px;
+
+    background: url(https://images.vexels.com/media/users/3/145131/isolated/preview/d2ba09d9b4856df5b15cdc5636a45b37-sun-large-wavy-beams-icon-by-vexels.png) top center no-repeat;
+    color: white;
+    animation: myAnimation 3s ease-in-out infinite;
+    animation-play-state: paused; 
 }
+
+.mySun:hover{
+    animation-play-state: running;
+}
+
+
+
 
 
 /* Standard syntax */
-@keyframes mymove {
-    100% {transform: rotate(1turn);
-}
+@keyframes myAnimation {
+    0% {
+        transform: rotate(1turn);
+    }
 
-/* @keyframes myAnimation {
+    100% {}
+
+    /* @keyframes myAnimation {
     0% {
         background-color: hsl(80, 100%, 50%);
         left: 0px;
