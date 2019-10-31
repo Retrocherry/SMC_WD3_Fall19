@@ -40,11 +40,20 @@
     color: white;
     animation: myAnimation 3s ease-in-out infinite;
     animation-play-state: paused; 
+    opacity: 50%;
+    transition: 0.3s;
 }
 
 .mySun:hover{
     animation-play-state: running;
+    opacity: 100%;
 
+}
+
+.sunText{
+   
+        visibility: visible;
+    
 }
 
 .myCloud {
