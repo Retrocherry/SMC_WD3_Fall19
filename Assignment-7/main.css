@@ -33,10 +33,10 @@
 .mySun {
     margin: auto;
 
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
 
-    background: url(https://images.vexels.com/media/users/3/145131/isolated/preview/d2ba09d9b4856df5b15cdc5636a45b37-sun-large-wavy-beams-icon-by-vexels.png) top center no-repeat;
+    background: url(sun.svg) top center no-repeat;
     color: white;
     animation: myAnimation 3s ease-in-out infinite;
     animation-play-state: paused; 
@@ -44,19 +44,36 @@
 
 .mySun:hover{
     animation-play-state: running;
+
 }
 
+.myCloud {
+    margin: auto;
 
+    width: 300px;
+    height: 300px;
 
+    background: url(cloud-svgrepo-com.svg) top center no-repeat;
+}
+
+.myHover:hover{
+    animation-play-state: running;
+
+}
 
 
 /* Standard syntax */
 @keyframes myAnimation {
+    
     0% {
+        
         transform: rotate(1turn);
+   
     }
 
-    100% {}
+    100% {
+
+    }
 
     /* @keyframes myAnimation {
     0% {
