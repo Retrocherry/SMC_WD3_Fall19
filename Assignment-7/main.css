@@ -5,7 +5,7 @@
 
     /* background-image: radial-gradient(circle farthest-corner at 80%, cornflowerblue, cornsilk ); */
 
-    background-image: repeating-radial-gradient(circle, red 0%, yellow 5%, green 10%);
+    background-image: repeating-radial-gradient(circle, goldenrod 0%, navy );
 }
 
 .field {
@@ -26,7 +26,13 @@
     animation: myAnimation 4s ease-in-out 1s infinite alternate;
 }
 
-@keyframes myAnimation {
+
+/* Standard syntax */
+@keyframes mymove {
+    100% {transform: rotate(1turn);
+}
+
+/* @keyframes myAnimation {
     0% {
         background-color: hsl(80, 100%, 50%);
         left: 0px;
@@ -43,4 +49,4 @@
         left: calc(100% - 150px);
         top: calc(100% - 150px);
     }
-}
+} */
