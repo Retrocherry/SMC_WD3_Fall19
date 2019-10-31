@@ -5,11 +5,11 @@
 
     /* background-image: radial-gradient(circle farthest-corner at 80%, cornflowerblue, cornsilk ); */
 
-    background-image: repeating-radial-gradient(circle, goldenrod 0%, navy);
+    background-image: linear-gradient(to right, #000046 0%, #1CB5E0 50%);
 }
 
 .jumbotron-heading {
-    font-family: 'Bree Serif', Courier, monospaced;
+    font-family: 'Staatliches', cursive;
 }
 
 /* .field {
@@ -31,60 +31,87 @@
 } */
 
 .mySun {
-    margin: auto;
+
 
     width: 300px;
     height: 300px;
 
-    background: url(sun.svg) top center no-repeat;
+    background: url(sun.svg) no-repeat;
     color: white;
     animation: myAnimation 3s ease-in-out infinite;
-    animation-play-state: paused; 
+    animation-play-state: paused;
     opacity: 50%;
     transition: 0.3s;
 }
 
-.mySun:hover{
+.mySun:hover {
     animation-play-state: running;
     opacity: 100%;
 
 }
 
-.sunText{
-   
-        visibility: visible;
-    
+.sunText {
+
+    visibility: visible;
+
 }
 
 .myCloud {
-    margin: auto;
+
 
     width: 300px;
     height: 300px;
 
     background: url(cloud-svgrepo-com.svg) top center no-repeat;
+    opacity: 50%;
+    transition: 0.3s;
 }
 
-.myHover:hover{
-    animation-play-state: running;
+.raindrop {
+    position: absolute;
+    bottom: 100%;
+    width: 15px;
+    height: 120px;
+    background: url(drop.svg) top center no-repeat;
+    pointer-events: none;
+    animation: rainAnimation 0.5s linear infinite;
+}
 
+.myCloud:hover {
+    animation-play-state: running;
+    opacity: 100%;
 }
 
 
 /* Standard syntax */
 @keyframes myAnimation {
-    
+
     0% {
-        
+
         transform: rotate(1turn);
-   
+
+    }
+
+    100% {}
+}
+
+@keyframes raindrop {
+    0% {
+        transform: translateY(0vh);
+    }
+
+    75% {
+        transform: translateY(90vh);
     }
 
     100% {
-
+        transform: translateY(90vh);
     }
 
-    /* @keyframes myAnimation {
+
+}
+
+/* @keyframes myAnimation {
     0% {
         background-color: hsl(80, 100%, 50%);
         left: 0px;
