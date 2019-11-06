@@ -10,7 +10,10 @@
 
 .jumbotron-heading {
     font-family: 'Staatliches', cursive;
+    animation: headerAnimation 3s  ease-in-out ;
+    animation-delay: 1s;
 }
+
 
 /* .field {
     min-height: 600px;
@@ -76,18 +79,18 @@
     width: 55px;
     height: 120px;
     background: url(drop.svg) top center no-repeat;
-   
+
     animation: rainAnimation 3s linear infinite;
     animation-play-state: paused;
 }
 
 .myCloud:hover {
-    animation-play-state: running; 
+    animation-play-state: running;
     opacity: 100%;
 }
 
-.raindrop:hover{
-    animation-play-state: running; 
+.raindrop:hover {
+    animation-play-state: running;
 }
 
 /* Standard syntax */
@@ -99,12 +102,26 @@
 
     }
 
-    100% {
-        
-    }
+    100% {}
 }
 
 @keyframes rainAnimation {
+    0% {
+        transform: translateY(0vh);
+    }
+
+    75% {
+        transform: translateY(90vh);
+    }
+
+    100% {
+        transform: translateY(90vh);
+    }
+
+
+}
+
+@keyframes headerAnimation {
     0% {
         transform: translateY(0vh);
     }

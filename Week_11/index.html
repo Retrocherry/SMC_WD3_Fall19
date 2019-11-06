@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Canvas and SVG</title>
+</head>
+
+<body>
+    <svg width="300" height="300">
+        <circle cx="150" cy="150" stroke="red" fill="blue" r="100" stroke-width="3">
+
+
+        </circle>
+        <rect x="125" y="125" width="50" height="50" style="fill:aliceblue;
+        stroke-width: 3px; stroke: darkcyan"></rect>
+    </svg>
+
+
+
+    <canvas width="600" height="700" id="myCanvas">
+        This webpage uses HTML canvas - please load in a modern browser
+        <!-- if browser supports canvas, it will display this ^^ -->
+
+    </canvas>
+
+
+    <!-- canvas only works for 2D -->
+    <!-- can be thought of as a layer in an application -->
+    <script>
+        const canvas = document.getElementById("myCanvas");
+        const ctx = canvas.getContext('2d');
+
+
+        ctx.fillStyle = "808080";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        
+        ctx.strokeStyle = "000000";
+        ctx.fillStyle = "#FF00FF";
+        ctx.fillRect(100, 100, 200, 100);
+        //    X Y W H
+
+        ctx.fillStyle = "#0000FF";
+        ctx.strokeRect(300, 300, 200, 100);
+
+        ctx.clearRect(150, 175, 75, 75)
+    </script>
+
+
+</body>
+
+</html>
