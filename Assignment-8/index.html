@@ -8,6 +8,7 @@
     <title>Canvas and SVG</title>
 
     <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="main.js"> </script>
 
     <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
 </head>
@@ -26,10 +27,10 @@
 
 
     <h1 class="webtitle">
-            ONE SMALL STEP FOR MAN
-            
-        </h1>
-    
+        ONE SMALL STEP FOR MAN
+
+    </h1>
+
     <!-- calling Canvas and creating a "canvas" to put elements inside-->
     <canvas id="myCanvas" width="900" height="900" style="border:5px solid #68B684;">
         This webpage uses HTML canvas - please load in a modern browser
@@ -39,9 +40,12 @@
 
     <!-- canvas only works for 2D -->
     <!-- can be thought of as a layer in an application -->
+
+<
+
     <script>
         // gets our element by id we named myCanvas
-               const canvas = document.getElementById("myCanvas");
+        const canvas = document.getElementById("myCanvas");
         const ctx = canvas.getContext('2d');
         ctx.fillStyle = "#003b59";
         ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -55,12 +59,12 @@
         // ctx.fillRect(100, 100, 200, 100);
         //    X Y W H
 
-             
-   
-        // sun
+      
+
+        // moon
         ctx.beginPath();
-        ctx.arc(450, 1150,600, 2, 4 * Math.PI);
-        ctx.fillStyle = "#F9D71C";
+        ctx.arc(450, 1150, 600, 2, 4 * Math.PI);
+        ctx.fillStyle = "#d0d5d2";
         ctx.fill();
 
         // earth
@@ -69,12 +73,16 @@
         ctx.fillStyle = "#0077BE";
         ctx.fill();
 
+        ctx.beginPath();
+        ctx.arc(450, 350, 44, 2, 4 * Math.PI);
+        ctx.fillStyle = "#68B684";
+        ctx.fill();
+
 
         // MOON
-        ctx.beginPath();
-        ctx.arc(400, 400, 20, 2, 4 * Math.PI);
-        ctx.fillStyle = "#d0d5d2";
-        ctx.fill();
+        ctx.fillStyle = "#cba135";
+        ctx.strokeRect(400, 400, 59, 10);
+        ctx.fillRect(400, 400, 59, 10);
 
         //rectangle 2
         // ctx.fillStyle = "#0000FF";
