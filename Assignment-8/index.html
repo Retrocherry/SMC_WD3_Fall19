@@ -9,7 +9,7 @@
 
     <link rel="stylesheet" href="main.css">
 
-    <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -25,49 +25,67 @@
     </svg> -->
 
 
+    <h1 class="webtitle">
+            ONE SMALL STEP FOR MAN
+            
+        </h1>
+    
     <!-- calling Canvas and creating a "canvas" to put elements inside-->
-    <canvas id="myCanvas" width="900" height="700" style="border:1px solid #000000;">
+    <canvas id="myCanvas" width="900" height="900" style="border:5px solid #68B684;">
         This webpage uses HTML canvas - please load in a modern browser
         <!-- if browser supports canvas, it will display this ^^ -->
 
     </canvas>
 
-
     <!-- canvas only works for 2D -->
     <!-- can be thought of as a layer in an application -->
     <script>
         // gets our element by id we named myCanvas
-        const canvas = document.getElementById("myCanvas");
-        const ctx = canvas.getContext('2d'); //This defines our context as a 2d canvas
-        ctx.fillStyle = "698996";
+               const canvas = document.getElementById("myCanvas");
+        const ctx = canvas.getContext('2d');
+        ctx.fillStyle = "#003b59";
         ctx.fillRect(0, 0, canvas.width, canvas.height);
 
         // fill style and context for our central frame because this size is set to the full width and height of our canvas frame using canvas.width...
 
 
         // rectangle 1 
-        ctx.strokeStyle = "000000";
-        ctx.fillStyle = "#60E1E0";
-        ctx.fillRect(100, 100, 200, 100);
+        // ctx.strokeStyle = "#000000";
+        // ctx.fillStyle = "#60E1E0";
+        // ctx.fillRect(100, 100, 200, 100);
         //    X Y W H
 
-
-        
+             
+   
+        // sun
         ctx.beginPath();
-        ctx.arc(100, 75, 50, 0, 2 * Math.PI);
-        ctx.fillStyle = "blue";
+        ctx.arc(450, 1150,600, 2, 4 * Math.PI);
+        ctx.fillStyle = "#F9D71C";
+        ctx.fill();
+
+        // earth
+        ctx.beginPath();
+        ctx.arc(450, 350, 74, 2, 4 * Math.PI);
+        ctx.fillStyle = "#0077BE";
+        ctx.fill();
+
+
+        // MOON
+        ctx.beginPath();
+        ctx.arc(400, 400, 20, 2, 4 * Math.PI);
+        ctx.fillStyle = "#d0d5d2";
         ctx.fill();
 
         //rectangle 2
-        ctx.fillStyle = "#0000FF";
-        ctx.strokeRect(300, 300, 200, 100);
+        // ctx.fillStyle = "#0000FF";
+        // ctx.strokeRect(300, 300, 200, 100);
 
-        ctx.fillStyle = "#34435E";
-        ctx.strokeStyle = "34435E";
-        ctx.fillRect(200, 210, 200, 100);
+        // ctx.fillStyle = "#34435E";
+        // ctx.strokeStyle = "#34435E";
+        // ctx.fillRect(200, 210, 200, 100);
 
 
-        ctx.clearRect(150, 175, 75, 75)
+        // ctx.clearRect(150, 175, 75, 75)
     </script>
 
 
