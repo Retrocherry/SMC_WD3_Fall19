@@ -1,5 +1,46 @@
-
-
-.webtitle{
+.webtitle {
     font-family: 'Righteous', cursive;
+    position: absolute;
+    left: 75px;
+    top: 50px;
+    font-size: 60px;
+    color: white;
+}
+
+
+.webtitle2{
+    font-family: 'Righteous', cursive;
+    position: absolute;
+    left: 220px;
+    top: 140px;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.lunarmodule {
+    position: absolute;
+
+}
+
+#container{
+    display:inline-block;
+    width:320px; 
+    height:480px;
+    margin: 0 auto; 
+ 
+    position:relative; 
+    
+
+}
+
+.image{
+    position: absolute;
+    left: 300px;
+    top: 350px;
+    width: 300px;
+}
+
+#myCanvas{
+    position:relative;
+    z-index:-1;
 }
