@@ -28,21 +28,36 @@
 
     <h1 class="webtitle">
         ONE SMALL STEP FOR MAN <br>
-       
+
 
     </h1>
 
 
     <h1 class="webtitle2">
-             ONE GIANT LEAP FOR MANKIND 
+         ONE GIANT LEAP FOR MANKIND 
 
-           
-    
-        </h1>
-    
+
+
+    </h1>
+
     <!-- calling Canvas and creating a "canvas" to put elements inside-->
 
 
+
+    <!-- ANIMATION -->
+    <!-- ar canvas;
+var ctx;
+var dx = 1;
+var dy = 2;
+var bar=new Bar(400,500);
+var circle=new Circle(400,30,10);
+var dxBar=6;
+var timer;
+var barImg;
+function Bar(x,y){
+  this.x=x;
+  this.y=y;
+} -->
 
     <div id="container">
         <img class="image" src="lunarmodule.png">
@@ -50,7 +65,7 @@
         <canvas id="myCanvas" width="900" height="900" style="border:5px solid #68B684;">
             This webpage uses HTML canvas - please load in a modern browser
             <!-- if browser supports canvas, it will display this ^^ -->
-    
+
         </canvas>
     </div>
 
@@ -77,6 +92,17 @@
         // ctx.fillStyle = "#60E1E0";
         // ctx.fillRect(100, 100, 200, 100);
         //    X Y W H
+
+        //image 
+        var img = new Image(width: 100, height: 100):HTMLImageElement ) 
+        img.src = 'urlhere';
+
+        var autoHeight = img.height * 350/img.width; //x = (H * 350)/(W)
+
+
+        ctx.drawImage(img, 440, 10, 350, autoHeight);
+
+
 
 
 
@@ -113,6 +139,8 @@
 
 
         // ctx.clearRect(150, 175, 75, 75)
+
+        mainContext.clearRect(0, 0, canvasWidth, canvasHeight);
     </script>
 
 
