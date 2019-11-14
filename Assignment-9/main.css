@@ -1,0 +1,12 @@
+.header{
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+.background{
+    background-image: url("night.gif");
+    background-repeat: repeat;
+    background-color: #cccccc;
+ 
+   
+}
