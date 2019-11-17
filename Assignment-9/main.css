@@ -1,5 +1,7 @@
 .header{
     font-family: 'Press Start 2P', cursive;
+    z-index: 100;
+    color: white;
 }
 
 
@@ -11,3 +13,9 @@
    
 }
 
+
+#counter{
+    font-family: 'Press Start 2P', cursive;
+    z-index: 100;
+    color: whitesmoke;
+}
