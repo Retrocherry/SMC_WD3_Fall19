@@ -134,7 +134,7 @@ canvas.addEventListener("click", function (event) {
         // ballColor = 'rgb(200, 128, 90)';
     }
 })
-
+// Vars for button that changes ball color
 var redButton = document.getElementById('redButton');
 var blueButton = document.getElementById('blueButton');
 var greenButton = document.getElementById('greenButton');
@@ -151,4 +151,16 @@ blueButton.addEventListener('click', function(e) {
 
 greenButton.addEventListener('click',function (e) {
     ballColor = 'rgb(33, 224, 16)'; // Modify color accordingly
+})
+
+//BROKEN
+var smallBall = document.getElementById('smallBall');
+var bigBall = document.getElementById('bigBall');
+
+smallBall.addEventListener('click',function (e) {
+    ballRadius = '20';
+})
+
+bigBall.addEventListener('click',function (e) {
+    ballRadius = '50';
 })
