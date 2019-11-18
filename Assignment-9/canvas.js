@@ -131,7 +131,7 @@ canvas.addEventListener("click", function (event) {
         counterElem.innerHTML = amountOfClicks;
 
         // ctx.fillStyle('rgb(200, 128, 90)');
-        ballColor = 'rgb(200, 128, 90)';
+        // ballColor = 'rgb(200, 128, 90)';
     }
 })
 
