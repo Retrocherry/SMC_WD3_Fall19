@@ -129,5 +129,26 @@ canvas.addEventListener("click", function (event) {
         amountOfClicks = amountOfClicks + 1;
         console.log(amountOfClicks);
         counterElem.innerHTML = amountOfClicks;
+
+        // ctx.fillStyle('rgb(200, 128, 90)');
+        ballColor = 'rgb(200, 128, 90)';
     }
+})
+
+var redButton = document.getElementById('redButton');
+var blueButton = document.getElementById('blueButton');
+var greenButton = document.getElementById('greenButton');
+
+
+redButton.addEventListener('click', (e) {
+    ballColor = 'rgb(235, 64, 52)'; // Modify color accordingly
+})
+
+
+blueButton.addEventListener('click', (e) {
+    ballColor = 'rgb(22, 174, 240)'; // Modify color accordingly
+})
+
+greenButton.addEventListener('click', (e) {
+    ballColor = 'rgb(33, 224, 16)'; // Modify color accordingly
 })
