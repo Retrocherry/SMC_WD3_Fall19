@@ -140,15 +140,15 @@ var blueButton = document.getElementById('blueButton');
 var greenButton = document.getElementById('greenButton');
 
 
-redButton.addEventListener('click', (e) {
+redButton.addEventListener('click',function (e) {
     ballColor = 'rgb(235, 64, 52)'; // Modify color accordingly
 })
 
 
-blueButton.addEventListener('click', (e) {
+blueButton.addEventListener('click', function(e) {
     ballColor = 'rgb(22, 174, 240)'; // Modify color accordingly
 })
 
-greenButton.addEventListener('click', (e) {
+greenButton.addEventListener('click',function (e) {
     ballColor = 'rgb(33, 224, 16)'; // Modify color accordingly
 })
