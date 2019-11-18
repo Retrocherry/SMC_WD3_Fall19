@@ -69,7 +69,7 @@ var ctx = canvas.getContext("2d");
 
 var ballX = canvas.width / 2;
 var ballY = canvas.height / 2;
-var ballColor = 'rgb(0, 155, 155)';
+var ballColor = 'rgb(221, 255, 0)';
 var ballRadius = 50;
 
 var speedX = 5;
@@ -79,12 +79,12 @@ var directionDown = true;
 var directionRight = true;
 
 function animate() {
-    ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
+    ctx.fillStyle = 'rgba(162, 80, 193, 0.3)';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
     ctx.beginPath();
     ctx.fillStyle = ballColor;
-    ctx.strokeStyle = 'black';
+    ctx.strokeStyle = 'green';
     ctx.arc(ballX, ballY, ballRadius, 0, 2 * Math.PI);
     ctx.fill();
     ctx.stroke();
