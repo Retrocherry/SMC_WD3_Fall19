@@ -115,7 +115,7 @@ function animate() {
 
 animate();
 
-var counterElem = document.getElementById('counter');
+var counterElem = document.getElementById('counter'); //creates var counterElem called counter 
 
 canvas.addEventListener("click", function (event) {
 
@@ -134,6 +134,8 @@ canvas.addEventListener("click", function (event) {
         // ballColor = 'rgb(200, 128, 90)';
     }
 })
+
+
 // Vars for button that changes ball color
 var redButton = document.getElementById('redButton');
 var blueButton = document.getElementById('blueButton');
@@ -164,3 +166,9 @@ smallBall.addEventListener('click',function (e) {
 bigBall.addEventListener('click',function (e) {
     ballRadius = '50';
 })
+
+
+// in class nov 19
+function assignColor(){
+    ballColor = 'rgb(' + (Math)
+}

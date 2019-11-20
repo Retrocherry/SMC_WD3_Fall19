@@ -44,14 +44,38 @@
         <h5 class="header text-center text-light">
             Try to click in the center of the bouncing ball! <br> See your successful attempts below.
         </h5>
-        <p class="header">Successful Clicks:</p>
-        <div id="counter">0</div>
-        <p class="header"> Change the color of the ball!</p>
 
-        <button id="redButton" class="btn btn-danger" type="redButton">Red</button>
-        <button id="blueButton"  class="btn btn-primary" type="blueButton">Blue</button>
-        <button id="greenButton" class="btn btn-success" type="greenButton">Green</button>
+        <hr>
+        <div class="column">
 
+            <h3 class="header">Successful Clicks:</h3>
+            <div id="counter">0</div>
+            
+            <div class="row">
+
+                <p class="header"> Change the color of the ball!</p>
+
+                <button id="redButton" class="btn btn-danger" type="redButton">Red</button>
+                <button id="blueButton" class="btn btn-primary" type="blueButton">Blue</button>
+                <button id="greenButton" class="btn btn-success" type="greenButton">Green</button>
+            </div>
+
+            <form action="" method="POST">
+                <label for="redComp">Red:</label>
+                <input type="range" min="0" max="255" id="redComp">
+                <output for="outComp"></output>
+
+                <label for="greenComp">Green:</label>
+                <input type="range" min="0" max="255" id="greenComp">
+                <output for="outComp"></output>
+
+                <label for="blueComp">Blue:</label>
+                <input type="range" min="0" max="255" id="blueComp">
+                <output for="outComp"></output>
+            </form>
+
+        </div>
+        <hr>
         <!-- BROKEN -->
 
         <h5 class="header text-center text-light">

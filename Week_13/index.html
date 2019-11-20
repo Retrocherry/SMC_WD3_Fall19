@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Week_13</title>
+</head>
+
+<body>
+    <!-- this thus creates a series of fallbacks -->
+    <picture>
+        <!-- we can define media, type -->
+        <!-- this makes it better for designing mobile first -->
+        <!-- we tell it what image it is to help the browser "parse it" faster -->
+
+        <source srcset="https://images.thewest.com.au/publication/B881040182Z/1544409544889_GIQ1V8ON4.2-2.jpg"
+            media="(min-width: 700px)" type="image/jpg" style="width:500px;">
+        <source srcset="" media="(min-width: 400px)" type="image/jpg">
+        <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/australia/Quokka_Sam-West.jpg"
+            alt="Quokka" style="width:500px;">
+    </picture>
+
+    <!-- Here instead of switching a pic based on screen size, we change the file type DEPENDING on BROWSWER -->
+    <audio>
+        <source src="sample.mp3" type="audio/mp3">
+        <source src="sample.ogg" type="audio/ogg">
+        <source src="sample.wav" type="audio/wav">
+
+    </audio>
+
+    <!-- we dont want ppl leaving my site to watch a video, but we want  -->
+    <video controls="" poster="link goes here"> 
+        <!-- first open source video -->
+        <source src="big_buck_bunny_480p_stereo.ogg" type="video/ogg">
+        <source src="sample.webm" type="video/webm">
+        <source src="sample.mp4" type="video/mp4">
+    </video>
+
+    <!-- the most common way of embedding -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wegxoNTw0_I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    <iframe src="https://en.wikipedia.org/wiki/500_Fifth_Avenue" width="500" height="500"></iframe>
+
+    <!-- this would allow you to UPLOAD, restricits to image and must be a PNG -->
+    <!-- if we wanted to upload PDF -->
+    <input type="file" type="image/png" </body> </html>
