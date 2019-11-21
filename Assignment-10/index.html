@@ -74,6 +74,27 @@
         </div>
     </div>
 
+
+    <picture>
+            <!-- we can define media, type -->
+            <!-- this makes it better for designing mobile first -->
+            <!-- we tell it what image it is to help the browser "parse it" faster -->
+    
+            <source srcset="https://images.thewest.com.au/publication/B881040182Z/1544409544889_GIQ1V8ON4.2-2.jpg"
+                media="(min-width: 700px)" type="image/jpg" style="width:500px;">
+            <source srcset="" media="(min-width: 400px)" type="image/jpg">
+            <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/australia/Quokka_Sam-West.jpg"
+                alt="Quokka" style="width:500px;">
+        </picture>
+    
+
+        <audio>
+                <source src="sample.mp3" type="audio/mp3">
+                <source src="sample.ogg" type="audio/ogg">
+                <source src="sample.wav" type="audio/wav">
+        
+            </audio>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
