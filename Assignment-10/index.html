@@ -62,50 +62,56 @@
                     width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             </div>
 
-
         </div>
 
         <div class="row">
             <div class="col md-6 pt-md-5 pb-md-4 mx-auto text-center">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/BBgghnQF6E4?start=25"
+                <iframe width="100%" height="400" src="https://www.youtube.com/embed/BBgghnQF6E4?start=25"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
         </div>
-    </div>
+        <div class="row">
+            <div class="col md-12 pt-md-5 pb-md-4 mx-auto text-center">
+                <picture>
+                    <!-- we can define media, type -->
+                    <!-- this makes it better for designing mobile first -->
+                    <!-- we tell it what image it is to help the browser "parse it" faster -->
+
+                    <source srcset="https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/next-star-wars-movie.jpg"
+                        media="(min-width: 700px)" type="image/jpg" style="width:900px;">
+                    <source
+                        srcset="https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/starwars-tros-dolbyposter-full-700x1023.jpg"
+                        media="(min-width: 400px)" type="image/jpg">
+                    <img src="https://d13ezvd6yrslxm.cloudfront.net/wp/wp-content/images/starwars-tros-dolbyposter-full-700x1023.jpg"
+                        alt="starwars" style="width:500px;">
+                </picture>
+            </div>
+        </div>
+        <div class="row">
+                <div class="col md-12 pt-md-5 pb-md-4 mx-auto text-center"">
+                    <hr>
+            <audio controls="">
+                <source src="infinity.mp3" type="audio/mp3">
 
 
-    <picture>
-            <!-- we can define media, type -->
-            <!-- this makes it better for designing mobile first -->
-            <!-- we tell it what image it is to help the browser "parse it" faster -->
-    
-            <source srcset="https://images.thewest.com.au/publication/B881040182Z/1544409544889_GIQ1V8ON4.2-2.jpg"
-                media="(min-width: 700px)" type="image/jpg" style="width:500px;">
-            <source srcset="" media="(min-width: 400px)" type="image/jpg">
-            <img src="https://natureconservancy-h.assetsadobe.com/is/image/content/dam/tnc/nature/en/photos/australia/Quokka_Sam-West.jpg"
-                alt="Quokka" style="width:500px;">
-        </picture>
-    
-
-        <audio>
-                <source src="sample.mp3" type="audio/mp3">
-                <source src="sample.ogg" type="audio/ogg">
-                <source src="sample.wav" type="audio/wav">
-        
             </audio>
+                </div>
+        </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
