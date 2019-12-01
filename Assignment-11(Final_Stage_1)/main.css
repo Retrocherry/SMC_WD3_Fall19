@@ -9,8 +9,23 @@
     font-family: 'Solway', serif;
     color: white;
     font-size: 1.2rem;
-    min-height:88px !important
+    min-height:100px !important;
 
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+}
+.navbar-brand{
+    color: white;
 }
 
 .navbar-light .navbar-toggler {
@@ -24,7 +39,7 @@
 }
 
 .navbar-light .navbar-nav .nav-active {
-    color: #004085;
+    color: #ED5537;
 }
 
 
@@ -48,8 +63,13 @@
 
 }
 
-
-
+/* HR STYLE */
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
 /* -------------- BUTTON STYLE --------------- */
 
 .btn-lg {
