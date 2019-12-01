@@ -2,6 +2,17 @@
 
 /* -------------- NAVBAR STYLE --------------- */
 
+
+.navbar {
+    background-color: #002034 !important;
+    border-color: white;
+    font-family: 'Solway', serif;
+    color: white;
+    font-size: 1.2rem;
+    min-height:88px !important
+
+}
+
 .navbar-light .navbar-toggler {
     color: #004085 !important;
     background: #E6FAFC;
@@ -37,21 +48,14 @@
 
 }
 
-.navbar {
-    background-color: #00BFEA !important;
-    border-color: white;
-    font-family: 'Lexend Deca', sans-serif;
-    color: white;
-    font-size: 1.2rem;
 
-}
 
 /* -------------- BUTTON STYLE --------------- */
 
 .btn-lg {
     background: #65F7BC;
     border-color: #65F7BC;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Calistoga', cursive;
     color: #003286;
 
 }
@@ -59,14 +63,14 @@
     color: #003286;
     background-color: #65F7BC;
     border-color: #65F7BC;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Solway', serif;
 }
 
 .btn-primary:hover {
     color: whitesmoke;
     background-color: #003286;
     border-color: #65F7BC;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Solway', serif;
 }
 
 
@@ -90,14 +94,14 @@
     color: #fff;
     background-color: #003286;
     border-color: #65F7BC;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Solway', serif;
 }
 
 .btn-outline-primary{
     color: #003286;
     background-color: #65F7BC;
     border-color: #65F7BC;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Solway', serif;
 }
 
 /* ---------------       ALERT              -------------- */
@@ -106,7 +110,7 @@
     color: #003286;
     background: #65F7BC;
     border-color: rgb(66, 199, 146);
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Solway', serif;
 }
 /* ------------------- FEATURETTES -------------------*/
 .featurette {
@@ -122,17 +126,17 @@
 /* -------------- TYPOGRAPHY STYLE --------------- */
 .main-header {
     text-shadow: 2px 2px 10px #484848;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Calistoga', cursive;
 
 }
 
 .para-header {
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Calistoga', cursive;
     color: #CE3314;
 }
 
 .lead {
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Solway', serif;
     color: whitesmoke;
 }
 
@@ -142,7 +146,7 @@
 }
 
 .body {
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Solway', serif;
 }
 
 .text-muted2 {
@@ -165,13 +169,13 @@
 }
 
 .display-4 {
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Calistoga', cursive;
     text-shadow: 2px 2px 10px #484848;
     color: white;
 }
 
 .jumbo-subhead {
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Calistoga', cursive;
     text-shadow: 2px 2px 10px #484848;
     color: white;
 
@@ -200,14 +204,14 @@
 }
 
 .card-header {
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Solway', serif;
     text-shadow: 2px 2px 10px #484848;
     color: white;
     background: #2E9DDD;
 }
 
 .card-body {
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Solway', serif;
     color: black;
     background: rgb(254, 254, 254);
 }
@@ -239,12 +243,12 @@
     top: 0;
     right: 0;
     bottom: 0;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Solway', serif;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-title{
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Solway', serif;
 }
 
 
