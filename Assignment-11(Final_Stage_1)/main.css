@@ -1,5 +1,3 @@
-
-
 /* -------------- NAVBAR STYLE --------------- */
 
 
@@ -9,7 +7,7 @@
     font-family: 'Solway', serif;
     color: white;
     font-size: 1.2rem;
-    min-height:100px !important;
+    min-height: 100px !important;
 
 }
 
@@ -18,13 +16,14 @@
     display: flex;
     -ms-flex-direction: column;
     flex-direction: column;
-    
+
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
 
 }
-.navbar-brand{
+
+.navbar-brand {
     color: white;
 }
 
@@ -69,7 +68,8 @@ hr {
     margin-bottom: 1rem;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
-  }
+}
+
 /* -------------- BUTTON STYLE --------------- */
 
 .btn-lg {
@@ -79,6 +79,7 @@ hr {
     color: #003286;
 
 }
+
 .btn-primary {
     color: #003286;
     background-color: #65F7BC;
@@ -117,7 +118,7 @@ hr {
     font-family: 'Solway', serif;
 }
 
-.btn-outline-primary{
+.btn-outline-primary {
     color: #003286;
     background-color: #65F7BC;
     border-color: #65F7BC;
@@ -132,6 +133,7 @@ hr {
     border-color: rgb(66, 199, 146);
     font-family: 'Solway', serif;
 }
+
 /* ------------------- FEATURETTES -------------------*/
 .featurette {
     height: 450px;
@@ -152,12 +154,17 @@ hr {
 
 .para-header {
     font-family: 'Calistoga', cursive;
-    color: #CE3314;
+    color: rgb(49, 47, 53);
 }
+
+/* .h3{
+        font-family: 'Calistoga', cursive !important;
+} */
 
 .lead {
     font-family: 'Solway', serif;
-    color: whitesmoke;
+    color: black;
+    font-size: 12pt !important;
 }
 
 .para-subheader {
@@ -200,27 +207,28 @@ hr {
     color: white;
 
 }
+
 /* ---------------   CAROUSEL */
 
-.first-slide{
-   object-fit: cover;
+.first-slide {
+    object-fit: cover;
 }
 
-.second-slide{
-   object-fit: cover;
+.second-slide {
+    object-fit: cover;
 }
 
 
-.third-slide{
-   object-fit: cover;
+.third-slide {
+    object-fit: cover;
 }
 
 /* -------------- CARD STYLE --------------- */
 
 .card {
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .4rem;
-    
+
 }
 
 .card-header {
@@ -249,7 +257,7 @@ hr {
 /* IMAGE */
 
 .earthimage {
- 
+
     width: 300px;
 }
 
@@ -267,7 +275,7 @@ hr {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.modal-title{
+.modal-title {
     font-family: 'Solway', serif;
 }
 
