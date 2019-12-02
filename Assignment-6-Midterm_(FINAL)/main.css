@@ -1,31 +1,6 @@
+
+
 /* -------------- NAVBAR STYLE --------------- */
-
-
-.navbar {
-    background-color: #002034 !important;
-    border-color: white;
-    font-family: 'Solway', serif;
-    color: white;
-    font-size: 1.2rem;
-    min-height: 100px !important;
-
-}
-
-.navbar-nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-
-}
-
-.navbar-brand {
-    color: white;
-}
 
 .navbar-light .navbar-toggler {
     color: #004085 !important;
@@ -38,7 +13,7 @@
 }
 
 .navbar-light .navbar-nav .nav-active {
-    color: #ED5537;
+    color: #004085;
 }
 
 
@@ -62,48 +37,46 @@
 
 }
 
-/* HR STYLE */
-hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+.navbar {
+    background-color: #00BFEA !important;
+    border-color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+
 }
 
 /* -------------- BUTTON STYLE --------------- */
 
 .btn-lg {
-    /* background: #ED5537;
-    border-color: #ED5537;
-    font-family: 'Calistoga', cursive;
-    color: white; */
+    background: #65F7BC;
+    border-color: #65F7BC;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #003286;
 
 }
-
-
-.btn-lg:hover {
-    /* background: #F0735B;
-    border-color: #F0735B;
-    color: #ffffff; */
-
-}
-
 .btn-primary {
-    color: rgb(49, 47, 53);
-    background-color: #ED5537;
-    border-color: #ED5537;
-    font-family: 'Solway', serif;
+    color: #003286;
+    background-color: #65F7BC;
+    border-color: #65F7BC;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .btn-primary:hover {
-    color: #ED5537;
-    background-color: #F0735B;
-    border-color: #F0735B;
-    font-family: 'Solway', serif;
+    color: whitesmoke;
+    background-color: #003286;
+    border-color: #65F7BC;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 
 
+.btn-lg:hover {
+    background: rgb(226, 237, 233);
+    border-color: #65F7BC;
+    color: #003286;
+
+}
 
 .btn-outline-success {
     border-color: orange;
@@ -117,14 +90,14 @@ hr {
     color: #fff;
     background-color: #003286;
     border-color: #65F7BC;
-    font-family: 'Solway', serif;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
-.btn-outline-primary {
+.btn-outline-primary{
     color: #003286;
     background-color: #65F7BC;
     border-color: #65F7BC;
-    font-family: 'Solway', serif;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 /* ---------------       ALERT              -------------- */
@@ -133,9 +106,8 @@ hr {
     color: #003286;
     background: #65F7BC;
     border-color: rgb(66, 199, 146);
-    font-family: 'Solway', serif;
+    font-family: 'Lexend Deca', sans-serif;
 }
-
 /* ------------------- FEATURETTES -------------------*/
 .featurette {
     height: 450px;
@@ -150,23 +122,18 @@ hr {
 /* -------------- TYPOGRAPHY STYLE --------------- */
 .main-header {
     text-shadow: 2px 2px 10px #484848;
-    font-family: 'Calistoga', cursive;
+    font-family: 'Lexend Deca', sans-serif;
 
 }
 
 .para-header {
-    font-family: 'Calistoga', cursive;
-    color: rgb(49, 47, 53);
+    font-family: 'Lexend Deca', sans-serif;
+    color: #CE3314;
 }
 
-/* .h3{
-        font-family: 'Calistoga', cursive !important;
-} */
-
 .lead {
-    font-family: 'Solway', serif;
-    color: black;
-    font-size: 12pt !important;
+    font-family: 'Lexend Deca', sans-serif;
+    color: whitesmoke;
 }
 
 .para-subheader {
@@ -175,7 +142,7 @@ hr {
 }
 
 .body {
-    font-family: 'Solway', serif;
+    font-family: 'Be Vietnam', sans-serif;
 }
 
 .text-muted2 {
@@ -186,7 +153,7 @@ hr {
 /* -------------- LOGO STYLE --------------- */
 
 .logo {
-    width: 5rem;
+    width: 10rem;
 }
 
 /* -------------- JUMBOTRON STYLE --------------- */
@@ -198,54 +165,49 @@ hr {
 }
 
 .display-4 {
-    font-family: 'Calistoga', cursive;
+    font-family: 'Lexend Deca', sans-serif;
     text-shadow: 2px 2px 10px #484848;
     color: white;
-}
-
-.jumbo-discount{
-    width: 21vw;
 }
 
 .jumbo-subhead {
-    font-family: 'Calistoga', cursive;
+    font-family: 'Be Vietnam', sans-serif;
     text-shadow: 2px 2px 10px #484848;
     color: white;
 
 }
-
 /* ---------------   CAROUSEL */
 
-.first-slide {
-    object-fit: cover;
+.first-slide{
+   object-fit: cover;
 }
 
-.second-slide {
-    object-fit: cover;
+.second-slide{
+   object-fit: cover;
 }
 
 
-.third-slide {
-    object-fit: cover;
+.third-slide{
+   object-fit: cover;
 }
 
 /* -------------- CARD STYLE --------------- */
 
 .card {
-    border: 1px solid rgba(0, 0, 0, .125);
+    border: 1px solid rgba(0,0,0,.125);
     border-radius: .4rem;
-
+    
 }
 
 .card-header {
-    font-family: 'Solway', serif;
+    font-family: 'Lexend Deca', sans-serif;
     text-shadow: 2px 2px 10px #484848;
     color: white;
     background: #2E9DDD;
 }
 
 .card-body {
-    font-family: 'Solway', serif;
+    font-family: 'Lexend Deca', sans-serif;
     color: black;
     background: rgb(254, 254, 254);
 }
@@ -263,7 +225,7 @@ hr {
 /* IMAGE */
 
 .earthimage {
-
+ 
     width: 300px;
 }
 
@@ -277,12 +239,12 @@ hr {
     top: 0;
     right: 0;
     bottom: 0;
-    font-family: 'Solway', serif;
+    font-family: 'Lexend Deca', sans-serif;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.modal-title {
-    font-family: 'Solway', serif;
+.modal-title{
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 
