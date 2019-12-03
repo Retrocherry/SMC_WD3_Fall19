@@ -157,6 +157,8 @@ hr {
 .para-header {
     font-family: 'Calistoga', cursive;
     color: rgb(49, 47, 53);
+
+
 }
 
 /* .h3{
@@ -203,7 +205,7 @@ hr {
     color: white;
 }
 
-.jumbo-discount{
+.jumbo-discount {
     width: 21vw;
 }
 
@@ -230,13 +232,16 @@ hr {
 }
 
 /* -------------- CARD STYLE --------------- */
-.card-title{
-    font-family: 'Calistoga', serif !important; 
-
+.card-title {
+    font-family: 'Calistoga', serif !important;
+    color: #ED5537;
+    font-size: 1.5rem;
 }
+
 .card {
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .4rem;
+
 
 }
 
@@ -293,6 +298,24 @@ hr {
 
 /* BREAKPOINT OVERRIDES */
 
-@media (min-width: 576px) .jumbotron {
-    padding: 4rem 2rem;
+@media (min-width: 576px) {
+
+    .card {
+
+        height: 300px;
+
+    }
+}
+
+
+
+/* --------------- FOOTER STYLING ---------------- */
+
+.unique-color-dark{
+    color: black;
+}
+
+.page-footer{
+    
+    color: black;
 }
