@@ -89,14 +89,14 @@ hr {
 }
 
 .btn-primary {
-    color: rgb(49, 47, 53);
+    color: white;
     background-color: #ED5537;
     border-color: #ED5537;
     font-family: 'Solway', serif;
 }
 
 .btn-primary:hover {
-    color: #ED5537;
+    color: #white;
     background-color: #F0735B;
     border-color: #F0735B;
     font-family: 'Solway', serif;
@@ -230,7 +230,10 @@ hr {
 }
 
 /* -------------- CARD STYLE --------------- */
+.card-title{
+    font-family: 'Calistoga', serif !important; 
 
+}
 .card {
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .4rem;
