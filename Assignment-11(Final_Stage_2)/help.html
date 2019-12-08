@@ -22,13 +22,13 @@
 <body>
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="d-flex flex-grow-1">
 
             <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" width="175" height="" class="d-inline-block align-top" alt="">
+                <img src="images/logo2.png" width="130" height="" class="d-inline-block align-top" alt="">
                 <!-- <i class="fas fa-campground"></i>
-                Gabe's Camping Co. -->
+                    Gabe's Camping Co. -->
             </a>
 
             <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
@@ -38,6 +38,11 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
                     <span> <i class="fas fa-map"></i> </span>
                 </button>
+                <!-- <div id="nav-icon1">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div> -->
             </div>
         </div>
 
@@ -70,26 +75,24 @@
                 </li>
             </ul>
 
-            <ul class="navbar-nav nav-flex-icons">
-                <li class="nav-item">
-                    <a class="nav-link waves-effect">
-                        <span class="badge red z-depth-1 mr-1"> 1 </span>
-                        <i class="fas fa-shopping-cart"></i>
-                        <span class="clearfix d-none d-sm-inline-block"> Cart </span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://www.facebook.com/" class="nav-link waves-effect" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://twitter.com/" class="nav-link waves-effect" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </li>
 
-            </ul>
+            <a class="nav-link">
+                <span class="badge mr-1"> 1 </span>
+                <i class="fas fa-shopping-cart"></i>
+                <!-- <span class=" d-none d-sm-inline-block"> Cart </span> -->
+            </a>
+
+            <li class="nav-item nav-button shopping-cart">
+                <button type="button" id="shopping-cart">
+                    <span class="p1 fa-stack has-badge" data-count="0">
+                        <i class="fa fa-shopping-cart"></i>
+
+                    </span>
+
+                </button>
+            </li>
+
+
 
 
         </div>
@@ -99,26 +102,24 @@
 
     <main role="main">
         <div class="container">
-          
+
             <!--Section: Contact v.2-->
             <section class="mb-4">
-    
+
                 <!--Section heading-->
-                <h2 class="h1-responsive  para-header text-center my-4">Contact us</h2>
+                <h1 class="header  text-center mt-3">Contact</h1>
                 <!--Section description-->
-                <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to
-                    contact us directly. Our team will come back to you within
-                    a matter of hours to help you.</p>
-    
+                <p class="text-center mb-3">Any questions? Our team is happy to help.</p>
+
                 <div class="row">
-    
+
                     <!--Grid column-->
                     <div class="col-md-9 mb-md-0 mb-5">
                         <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-    
+
                             <!--Grid row-->
                             <div class="row">
-    
+
                                 <!--Grid column-->
                                 <div class="col-md-6">
                                     <div class="md-form mb-0">
@@ -127,7 +128,7 @@
                                     </div>
                                 </div>
                                 <!--Grid column-->
-    
+
                                 <!--Grid column-->
                                 <div class="col-md-6">
                                     <div class="md-form mb-0">
@@ -136,10 +137,10 @@
                                     </div>
                                 </div>
                                 <!--Grid column-->
-    
+
                             </div>
                             <!--Grid row-->
-    
+
                             <!--Grid row-->
                             <div class="row">
                                 <div class="col-md-12">
@@ -150,57 +151,82 @@
                                 </div>
                             </div>
                             <!--Grid row-->
-    
+
                             <!--Grid row-->
                             <div class="row">
-    
+
                                 <!--Grid column-->
                                 <div class="col-md-12">
-    
+
                                     <div class="md-form">
                                         <textarea type="text" id="message" name="message" rows="2"
                                             class="form-control md-textarea"></textarea>
                                         <label for="message">Your message</label>
                                     </div>
-    
+
                                 </div>
                             </div>
                             <!--Grid row-->
-    
+
                         </form>
-    
+
                         <div class="text-center text-md-left">
-                            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                            <a class="btn btn-primary"
+                                onclick="document.getElementById('contact-form').submit();">Send</a>
                         </div>
                         <div class="status"></div>
                     </div>
                     <!--Grid column-->
-    
+
                     <!--Grid column-->
                     <div class="col-md-3 text-center">
                         <ul class="list-unstyled mb-0">
                             <li><i class="fas fa-map-marker-alt fa-2x"></i>
                                 <p>San Francisco, CA 94126, USA</p>
                             </li>
-    
+
                             <li><i class="fas fa-phone mt-4 fa-2x"></i>
                                 <p>+ 01 234 567 89</p>
                             </li>
-    
+
                             <li><i class="fas fa-envelope mt-4 fa-2x"></i>
                                 <p>contact@GabesCamping.co</p>
                             </li>
                         </ul>
                     </div>
                     <!--Grid column-->
-    
+
                 </div>
-    
+
             </section>
-            <!--Section: Contact v.2-->
+
         </div>
 
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="header  text-center my-4">Help Center </h1>
 
+                    <div class="form-row">
+                        <div class="col-12 col-md-9 mb-2 mb-md-0">
+                            <input type="search" class="form-control form-control-lg"
+                                placeholder="Search for answers in the Help Center">
+                        </div>
+                        <div class="col-12 col-md-3">
+                            <button type="submit" class="btn btn-block btn-lg btn-primary">Search</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h1 class="header  text-center my-4">FAQ</h1>
+                </div>
+            </div>
+        </div>
+
+       
 
 
         <!-- FOOTER -->
