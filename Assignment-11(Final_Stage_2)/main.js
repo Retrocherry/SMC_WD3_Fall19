@@ -6,12 +6,21 @@ setTimeout(function () {
 
 
 
-
+/* ------- CART ------------------------ */
 $(document).ready(function () {
+    $('#main-add').on('click', function (e) {
+        e.preventDefault();
+    });
+
+    
+    $('input').keyup(checkValid);
+    $('textarea').keyup(checkValid);
+
+
     $('#myCarousel').on('slide.bs.carousel', function (e) {
         console.log(e);
     })
- 
+
     $('.js-modal-close').click(function () {
         $('.alert').addClass('show');
         $('.alert').alert();
@@ -26,8 +35,13 @@ $(document).ready(function () {
 $(document).ready(function(){
 	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
 		$(this).toggleClass('open');
-	});
+$(document).ready(function () {
 });
+
+        //    $('#submit-div a').click(function() {return false;} );
+        $('#submit-div a').off();
+    }
+}
 
 
 
