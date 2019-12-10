@@ -3,18 +3,18 @@ setTimeout(function () {
     $('#exampleModal').modal('show');
 }, 10000); // Wait 4 seconds before calling this function
 
-$('#myCarousel').on('slide.bs.carousel', function (e) {
-    console.log(e);
-})
+ $('#myCarousel').on('slide.bs.carousel', function (e) {
+        console.log(e);
+    })
 
-$('.js-modal-close').click(function () {
-    $('.alert').addClass('show');
-    $('.alert').alert();
+    $('.js-modal-close').click(function () {
+        $('.alert').addClass('show');
+        $('.alert').alert();
 
-    if (true) {
-        $("#myModal").modal('hide');
-    }
-})
+        if (true) {
+            $("#myModal").modal('hide');
+        }
+    })
 
 
 /* ------- CART ------------------------ */
