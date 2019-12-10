@@ -310,6 +310,10 @@ hr {
 
 
 /* -------------- TYPOGRAPHY STYLE --------------- */
+.defaultype{
+    font-family: 'Solway', serif;
+}
+
 .main-header {
 
     font-family: 'Calistoga', cursive;
@@ -338,7 +342,7 @@ hr {
 }
 
 .para-subheader {
-    font-family: 'Be Vietnam', sans-serif;
+    font-family: 'Solway', serif;
     color: #7B1F0D;
 }
 
