@@ -265,7 +265,9 @@ hr {
 
 
 /* ---------------   CAROUSEL --------------- */
-
+.carousel-item > img {
+    height: initial !important;
+}
 
 .body {
     padding-top: 0px !important;
