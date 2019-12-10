@@ -17,6 +17,9 @@ setTimeout(function () {
     })
 
 
+
+
+
 /* ------- CART ------------------------ */
 $(document).ready(function () {
     $('#main-add').on('click', function (e) {
