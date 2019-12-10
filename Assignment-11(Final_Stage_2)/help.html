@@ -23,82 +23,73 @@
 
 <body>
 
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="d-flex flex-grow-1">
+   <!-- NAVBAR -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="d-flex flex-grow-1">
 
-                <a class="navbar-brand" href="index.html">
-                    <img src="images/logo2.png" width="130" height="" class="d-inline-block align-top" alt="">
-                    <!-- <i class="fas fa-campground"></i>
-                    Gabe's Camping Co. -->
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo2.png" width="130" height="" class="d-inline-block align-top" alt="">
+            <!-- <i class="fas fa-campground"></i>
+            Gabe's Camping Co. -->
+        </a>
+
+        <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
+
+        </a>
+        <div class="w-100 text-right">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <span> <i class="fas fa-map"></i> </span>
+            </button>
+            <!-- <div id="nav-icon1">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="collapse navbar-collapse flex-grow-1 text-left" id="myNavbar">
+
+        <ul class="navbar-nav ml-auto flex-nowrap">
+
+            <li class="nav-item">
+                <a href="index.html" class="nav-link m-2 menu-item nav-active">Home</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle m-2 " href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Products
                 </a>
-
-                <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
-
-                </a>
-                <div class="w-100 text-right">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-                        <span> <i class="fas fa-map"></i> </span>
-                    </button>
-                    <!-- <div id="nav-icon1">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div> -->
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="backpacks.html">Backpacks</a>
+                    <a class="dropdown-item" href="#">Tents</a>
+                    <a class="dropdown-item" href="#">Water</a>
+                    <a class="dropdown-item" href="#">Water</a>
                 </div>
-            </div>
+            </li>
 
-            <div class="collapse navbar-collapse flex-grow-1 text-left" id="myNavbar">
-
-                <ul class="navbar-nav ml-auto flex-nowrap">
-
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link m-2 menu-item nav-active">Home</a>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle m-2 " href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Products
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="backpacks.html">Backpacks</a>
-                            <a class="dropdown-item" href="#">Tents</a>
-                            <a class="dropdown-item" href="#">Water</a>
-                            <a class="dropdown-item" href="#">Water</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="help.html" class="nav-link m-2 menu-item">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="blog.html" class="nav-link m-2 menu-item">GCC Blog</a>
-                    </li>
-                </ul>
+            <li class="nav-item">
+                <a href="help.html" class="nav-link m-2 menu-item">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a href="blog.html" class="nav-link m-2 menu-item">GCC Blog</a>
+            </li>
+        </ul>
 
 
-                <a class="nav-link">
-                    <span class="badge mr-1"> 1 </span>
-                    <i class="fas fa-shopping-cart"></i>
-                    <!-- <span class=" d-none d-sm-inline-block"> Cart </span> -->
-                </a>
+        <a href="cart.html" class="nav-link">
 
-                <li class="nav-item nav-button shopping-cart">
-                    <button type="button" id="shopping-cart">
-                        <span class="p1 fa-stack has-badge" data-count="0">
-                            <i class="fa fa-shopping-cart"></i>
-
-                        </span>
-
-                    </button>
-                </li>
+            <i class="fas fa-shopping-cart"></i><span id="cartItems"> 0</span>
+        </a>
 
 
 
 
-            </div>
-        </nav>
+
+
+    </div>
+</nav>
 
 
 
@@ -186,7 +177,7 @@
                         </form>
 
                         <div class="text-center text-md-left" id="submit-div">
-                            <a class="btn btn-primary">Send</a>
+                            <a class="btn btn-primary">Send </a>
                             <input type="submit" id="register" value="Register" disabled="disabled" />
                         </div>
                         <div class="status"></div>
