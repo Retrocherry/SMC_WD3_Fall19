@@ -234,15 +234,9 @@ hr {
     font-family: 'Solway', serif;
 }
 
-/* ---------------       ALERT              -------------- */
-
-.alert-primary {
-    color: #003286;
-    background: #65F7BC;
-    border-color: rgb(66, 199, 146);
-    font-family: 'Solway', serif;
+#cartItems{
+    padding-left: 5px;
 }
-
 /* ------------------- PRODUCT PAGE -------------------*/
 .card-img-top {
 

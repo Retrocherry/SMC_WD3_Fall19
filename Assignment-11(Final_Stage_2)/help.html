@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        
+
     <link rel="stylesheet" href="main.css">
     <script src="main.js"></script>
     <!-- fontawesome -->
@@ -26,15 +26,15 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="d-flex flex-grow-1">
-    
+
                 <a class="navbar-brand" href="index.html">
                     <img src="images/logo2.png" width="130" height="" class="d-inline-block align-top" alt="">
                     <!-- <i class="fas fa-campground"></i>
                     Gabe's Camping Co. -->
                 </a>
-    
+
                 <a class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
-    
+
                 </a>
                 <div class="w-100 text-right">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
@@ -47,15 +47,15 @@
                     </div> -->
                 </div>
             </div>
-    
+
             <div class="collapse navbar-collapse flex-grow-1 text-left" id="myNavbar">
-    
+
                 <ul class="navbar-nav ml-auto flex-nowrap">
-    
+
                     <li class="nav-item">
                         <a href="index.html" class="nav-link m-2 menu-item nav-active">Home</a>
                     </li>
-    
+
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle m-2 " href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -68,7 +68,7 @@
                             <a class="dropdown-item" href="#">Water</a>
                         </div>
                     </li>
-    
+
                     <li class="nav-item">
                         <a href="help.html" class="nav-link m-2 menu-item">FAQ</a>
                     </li>
@@ -76,27 +76,27 @@
                         <a href="blog.html" class="nav-link m-2 menu-item">GCC Blog</a>
                     </li>
                 </ul>
-    
-    
+
+
                 <a class="nav-link">
                     <span class="badge mr-1"> 1 </span>
                     <i class="fas fa-shopping-cart"></i>
                     <!-- <span class=" d-none d-sm-inline-block"> Cart </span> -->
                 </a>
-    
+
                 <li class="nav-item nav-button shopping-cart">
                     <button type="button" id="shopping-cart">
                         <span class="p1 fa-stack has-badge" data-count="0">
                             <i class="fa fa-shopping-cart"></i>
-    
+
                         </span>
-    
+
                     </button>
                 </li>
-    
-    
-    
-    
+
+
+
+
             </div>
         </nav>
 
@@ -113,7 +113,7 @@
                 <!--Section description-->
                 <p class="text-center mb-3">Any questions? Our team is happy to help.</p>
 
-                <form>
+                <!--<form>
                     Username<br />
                     <input type="text" id="user_input" name="username" /><br />
                     Password<br />
@@ -123,14 +123,14 @@
                     Email<br />
                     <input type="text" id="email" name="email" /><br />
                     <input type="submit" id="register" value="Register" disabled="disabled" />
-                </form>
+                </form>-->
                 <div id="test">
                 </div>
                 <div class="row">
 
 
                     <div class="col-md-9 mb-md-0 mb-5">
-                        <form class="form-group needs-validation was-validated" novalidate="" id="contact-form"
+                        <form id="contact" class="form-group needs-validation" novalidate id="contact-form"
                             name="contact-form" action="mail.php" method="POST">
 
 
@@ -185,9 +185,8 @@
 
                         </form>
 
-                        <div class="text-center text-md-left">
-                            <a class="btn btn-primary"
-                                onclick="document.getElementById('contact-form').submit();">Send</a>
+                        <div class="text-center text-md-left" id="submit-div">
+                            <a class="btn btn-primary">Send</a>
                             <input type="submit" id="register" value="Register" disabled="disabled" />
                         </div>
                         <div class="status"></div>
