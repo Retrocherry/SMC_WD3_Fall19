@@ -219,7 +219,9 @@ hr {
     font-family: 'Solway', serif;
 }
 
-
+.redlink a {
+    color: #F0735B !important;
+}
 
 
 .btn-outline-success {}
@@ -236,7 +238,20 @@ hr {
     font-family: 'Solway', serif;
 }
 
+/* ----------------- PRODUCT PAGE ------------ */
 
+.page-item.active .page-link{
+    color: white;
+    background-color: #ED5537;
+    border-color: #ED5537
+}
+
+.page-link {
+   
+    color: #ED5537;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
 /* ---------------   CART ---------------*/
 #cartItems{
     padding-left: 5px;
@@ -374,8 +389,39 @@ hr {
 
 }
 
+/* -------------    FAQ SNIPPET    ------------- */
 
-
+h2 {
+    font-family: 'Solway', serif;
+    color: black;
+    font-size: 14pt !important;
+}
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-family: 'Solway', serif;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #ED5537;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
 /* -------------- CARD STYLE --------------- */
 
 a, u {
