@@ -41,7 +41,7 @@
 
             </a>
             <div class="w-100 text-right">
-                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-shopping-cart"></i><span id="cartItems">0</span>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
 
@@ -146,9 +146,9 @@ d
 
                             <form class="d-flex justify-content-left">
                                 <!-- Default input -->
-                                <input type="number" value="1" aria-label="Search" class="form-control"
+                                <input id="main-prod-number" type="number" value="1" aria-label="Search" class="form-control"
                                     style="width: 100px">
-                                <button class="btn btn-primary btn-md ml-3 my-0 p waves-effect waves-light" type="submit">Add
+                                <button id="main-add" class="btn btn-primary btn-md ml-3 my-0 p waves-effect waves-light" type="submit">Add
                                     to cart
                                     <i class="fas fa-shopping-cart ml-1"></i>
                                 </button>
